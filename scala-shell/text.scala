@@ -16,8 +16,8 @@ def writeFile(filename : String, lines : Array[String]) : Unit = {
 }
 
 /*
-//  * Writes the input array to the specified textfile.
-//  */
+ * Writes the input array to the specified textfile.
+ */
 def writeFile(filename : String, lines : Array[(String, Int)]) : Unit = {
 	val file = new File(filename)
 	val bw = new BufferedWriter(new FileWriter(file))
