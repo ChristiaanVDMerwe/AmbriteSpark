@@ -37,4 +37,4 @@ if __name__ == "__main__":
     wordCounts.saveAsTextFiles(sys.argv[2])
 
     ssc.start()
-    ssc.awaitTermination()
+    ssc.awaitTerminationOrTimeout(100)
